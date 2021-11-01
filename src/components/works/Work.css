@@ -9,16 +9,16 @@
   .box-grid {
     display: grid;
     grid-template-columns: 1.4fr 1fr;
-    grid-gap: 50px;
-    align-items: end;
-    margin-bottom: 50px;
+    align-items: start;
+    grid-gap: 3rem;
+    margin-bottom: 5rem;
   }
   .box-grid2 {
     display: grid;
     grid-template-columns: 1fr 1.4fr;
-    grid-gap: 50px;
-    align-items: end;
-    margin-bottom: 50px;
+    align-items: start;
+    grid-gap: 3rem;
+    margin-bottom: 5rem;
   }
   .img-hover :hover {
     box-shadow: 0px 0px 50px #e3420f;
@@ -35,10 +35,11 @@
     z-index: 100;
   }
   .brf-box1 {
-    border: 1.5px solid #e3420f;
-    height: 170px;
+    border: 2px solid #FFC2AF;
+    border-radius: 10px;
+    height: auto;
     color: #233f4f !important;
-    padding: 10px;
+    padding: 1.5rem;
     z-index: 0;
   }
   
@@ -48,10 +49,11 @@
     z-index: 100;
   }
   .brf-box2 {
-    border: 1.5px solid #00bfbf;
-    height: 170px;
+    border: 2px solid #C9F6EB;
+    border-radius: 10px;
+    height: auto;
     color: #233f4f !important;
-    padding: 10px;
+    padding: 1.5rem;
     z-index: 0;
   }
   
@@ -61,11 +63,27 @@
     z-index: 100;
   }
   .brf-box3 {
-    border: 1.5px solid #a96500;
-    height: 170px;
+    border: 2px solid #F2E4CF;
+    border-radius: 10px;
+    height: auto;
     color: #233f4f !important;
-    padding: 10px;
+    padding: 1.5rem;
     z-index: 0;
+  }
+  .brf-box1 h4, .brf-box2 h4, .brf-box3 h4{
+    font-weight: bold;
+  }
+  .brf-box1 a{
+    font-weight: bold;
+    color: #E94F0C;
+  }
+  .brf-box2 a{
+    font-weight: bold;
+    color: #3B9E86;
+  }
+  .brf-box3 a{
+    font-weight: bold;
+    color: #B4875A;
   }
   .display-pc {
     display: grid;
@@ -73,9 +91,6 @@
   .display-sp {
     display: none;
   }
-  
-
-  
 
   @media (max-width: 48em) {
     .work-grid{

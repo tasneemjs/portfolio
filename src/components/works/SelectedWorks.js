@@ -50,50 +50,59 @@ const SelectedWorks = () => {
     }, []); 
     return ( 
     <section style={{ marginTop: 120 }}> 
-    <p>selected boxs-</p> 
+    <p>selected works<span class="hypen1">-</span></p> 
+
         <div className="box-grid "> 
-            <a className="index" href="http://ofa-support.com/taxi_department/"> 
+            
             <div className="img-box1"><img src={Web1} alt="OFA Hinomaru Taxi"/></div> 
-            </a> 
+            
             <Div className=" brf-box1" animate={show.itemOne} ref={oneRef}> 
+            <h4>OFA Hinomaru Taxi</h4>
                 <p> Designed and developed the website for Hinomaru Taxi. 
                     They operates with the concept of safety, security and community-based. 
                     They also carry out staff training aimed at kindness and politeness.
                     </p> 
+                <a className="index" href="http://ofa-support.com/taxi_department/" target="_blank" rel="noreferrer">View website</a> 
             </Div> 
         </div> 
     
         <div className="box-grid2 display-pc"> 
             <Div2 className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
+            <h4>Miyadora Gassyuku Plan</h4>
                 <p> Designed and developed the website for Miyadora Gassyuku. 
                     They are a driving training provider for the students who wants 
                     to get a job outiside of the prefecture. 
                 </p> 
+                <a className="index" href="http://www.miyadora.jp/gasshuku/gasshuku_plan.html" target="_blank" rel="noreferrer">View website</a>
             </Div2> 
             <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
         </div> 
         <div className="box-grid2 display-sp"> 
             <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
             <Div className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
+            <h4>Miyadora Gassyuku Plan</h4>
                 <p> Designed and developed the website for Miyadora Gassyuku. 
                     They are a driving training provider for the students who wants 
                     to get a job outiside of the prefecture.
                 </p> 
+                <a className="index" href="http://www.miyadora.jp/gasshuku/gasshuku_plan.html" target="_blank" rel="noreferrer">View website</a>
             </Div> 
         </div> 
 
         <div className="box-grid"> 
             <div className="img-box3"><img src={Web3} alt="Miyadora Luxury Plan"/></div> 
             <Div3 className="brf-box3" animate={show.itemThr} ref={thrRef}> 
+            <h4>Miyadora Luxury Plan</h4>
                 <p> Designed and developed the website for Miyadora Luxury. 
                     They are affiliated with the finest resort accommodations where 
                     you can fully enjoy the nature of Miyazaki, and 
                     you can obtain a driver's license as if you were traveling or sightseeing.
                 </p> 
+                <a className="index" href="http://www.miyadora.jp/luxury/luxury_plan.html" target="_blank" rel="noreferrer">View website</a>
             </Div3> 
         </div> 
 
-        <div><Link to={"./works"}>view other works-</Link></div>
+        <div><Link to={"./works"} style={{color: '#233f4f'}}>view other works<span class="hypen2">-</span></Link></div>
     </section> 
         );
     };
@@ -108,8 +117,8 @@ const SelectedWorks = () => {
     transition: transform 1.5s ease, opacity 0.5s ease 0.5s;
   `;
   const Div3 = styled.div`
-    transform: translateX(${({ animate }) => (animate ? "0" : "-20vw")});
+    transform: translateX(${({ animate }) => (animate ? "0" : "-30vw")});
     opacity: ${({ animate }) => (animate ? "1" : "0")};
-    transition: transform 1s ease, opacity 0.5s ease 0.3s;
+    transition: transform 1.4s ease, opacity 0.5s ease 0.4s;
   `;
 export default SelectedWorks;
