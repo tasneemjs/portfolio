@@ -52,20 +52,22 @@ const SelectedWorks = () => {
     <section style={{ marginTop: 120 }}> 
     <p>selected boxs-</p> 
         <div className="box-grid "> 
-            <a className="index" href="https://fn6fe.csb.app/"> 
+            <a className="index" href="http://ofa-support.com/taxi_department/"> 
             <div className="img-box1"><img src={Web1} alt="OFA Hinomaru Taxi"/></div> 
             </a> 
             <Div className=" brf-box1" animate={show.itemOne} ref={oneRef}> 
-                <p> A website about blablabla. Developed a custom template 
-                    by using html, php, js, in wordpress platform. 
+                <p> Designed and developed the website for Hinomaru Taxi. 
+                    They operates with the concept of safety, security and community-based. 
+                    They also carry out staff training aimed at kindness and politeness.
                     </p> 
             </Div> 
         </div> 
     
         <div className="box-grid2 display-pc"> 
             <Div2 className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
-                <p> A website about blablabla. Developed a custom 
-                template by using html, php, js, in wordpress platform. 
+                <p> Designed and developed the website for Miyadora Gassyuku. 
+                    They are a driving training provider for the students who wants 
+                    to get a job outiside of the prefecture. 
                 </p> 
             </Div2> 
             <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
@@ -73,8 +75,9 @@ const SelectedWorks = () => {
         <div className="box-grid2 display-sp"> 
             <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
             <Div className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
-                <p> A website about blablabla. Developed a 
-                custom template by using html, php, js, in wordpress platform. 
+                <p> Designed and developed the website for Miyadora Gassyuku. 
+                    They are a driving training provider for the students who wants 
+                    to get a job outiside of the prefecture.
                 </p> 
             </Div> 
         </div> 
@@ -82,8 +85,10 @@ const SelectedWorks = () => {
         <div className="box-grid"> 
             <div className="img-box3"><img src={Web3} alt="Miyadora Luxury Plan"/></div> 
             <Div3 className="brf-box3" animate={show.itemThr} ref={thrRef}> 
-                <p> A website about blablabla. Developed a 
-                custom template by using html, php, js, in wordpress platform. 
+                <p> Designed and developed the website for Miyadora Luxury. 
+                    They are affiliated with the finest resort accommodations where 
+                    you can fully enjoy the nature of Miyazaki, and 
+                    you can obtain a driver's license as if you were traveling or sightseeing.
                 </p> 
             </Div3> 
         </div> 
