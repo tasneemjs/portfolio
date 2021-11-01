@@ -4,7 +4,7 @@ function Intro(){
     return (
         <div style={{ marginTop: 50 }}>
             <p className="intro-p1"> 
-            tasneem is a frontend developer focused <br/>
+            i am a frontend developer focused <br/>
             on desiging and developing user friendly websites.
             </p>
             <p className="p2">
