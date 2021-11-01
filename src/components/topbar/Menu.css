@@ -1,0 +1,25 @@
+nav .container-fluid {
+    padding: 0;
+  }
+  .navbar-light .navbar-toggler {
+    border: 0;
+  }
+nav{
+  margin-top: 2rem;
+}
+.navbar-nav li{
+  padding: 0 1rem;
+}
+.navbar-nav li a{
+  color: #233F4F;
+}
+  @media (max-width: 48em) {
+  #navbarNav {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #navbarNav ul li {
+    margin-bottom: 10px;
+  }
+}

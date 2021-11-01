@@ -1,0 +1,14 @@
+.intro-p1{
+    font-size: calc(20px + 2vmin);
+    margin-bottom: 0;
+}
+.p2{
+    margin-top: 0;
+}
+.intro-p2{
+    font-size: calc(10px + 2vmin);
+}
+.in-hypn{
+    color: #7DDF00;
+    font-size: calc(25px + 2vmin);
+}
