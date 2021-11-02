@@ -1,8 +1,9 @@
-import WorkList from './WorkList';
-
+// import WorkList from './WorkList';
+import React, { useState } from "react";
 import Workcover from './img/work-cover.png';
-// import Web2 from './img/Web2.png';
-// import Web3 from './img/Web3.png';
+import FrontWorkItem from './FrontWorkItem';
+import UxWorkItem from './UxWorkItem';
+import './Work.css';
 const Work_Data = [
   {
     category: 'frontend',
@@ -40,14 +41,53 @@ const Work_Data = [
     description:
       'OFA Support BASEBALL ACADEMY Miyazaki Supported by Yomiuri GIANTS in collaboration with the Yomiuri Giants Academy, we aim to foster the healthy development of children through baseball and expand the baseball world. The target is from infants to elementary school students, and we have prepared a wide range of contents from practice that even beginners can enjoy without difficulty to technical guidance aiming at a higher level.',
   },
+  {
+    category: 'ux',
+    id: 'w5',
+    title: 'Inductive Bible Study',
+    image:'Ux1.png',
+    weblink:'https://play.google.com/store/apps/details?id=com.inductivebiblestudyapp&hl=en&gl=US',
+    description:
+      'The Inductive Bible Study app inspires people to spend time with God everyday. It is a beautiful, easy to use, full featured Bible app with amazing videos and multiple translations designed for quick navigation, easy notes taking and powerful Bible study.',
+  },
+  {
+    category: 'ux',
+    id: 'w6',
+    title: 'International Recipes by Gustavo Pasquini',
+    image:'Ux2.png',
+    weblink:'',
+    description:
+      'To bring exquisite recipes to your fine dining table for special ocacsions.',
+  },
 ];
 
 function Works() {
+  const [activeTab, setActiveTab] = useState("tab1");
+  //  Functions to handle Tab Switching
+  const handleTab1 = () => {
+    // update the state to tab1
+    setActiveTab("tab1");
+  };
+  const handleTab2 = () => {
+    // update the state to tab2
+    setActiveTab("tab2");
+  };
   return (
 <section >
   <img src={Workcover} style={{ width: '-webkit-fill-available' }} alt="Cover"/>
   <div className="container">       
-    <WorkList  workslists={Work_Data} />
+    <div className="Tabs"> 
+    {/* Tab nav */} 
+      <ul className="nav"> 
+      <li className={activeTab === "tab1" ? "active" : ""} onClick={handleTab1} >Frontend</li> 
+      <li className={activeTab === "tab2" ? "active" : ""} onClick={handleTab2} >UI/UX</li> 
+      </ul> 
+      <div > 
+      {/* content will be shown here */} 
+      {activeTab === "tab1" ? ( <FrontWorkItem workslists={Work_Data} /> ) : ( <UxWorkItem workslists={Work_Data} /> )
+      } 
+      </div> 
+    </div>
   </div>
 </section>
 

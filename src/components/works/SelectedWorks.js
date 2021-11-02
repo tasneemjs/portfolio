@@ -106,7 +106,7 @@ const SelectedWorks = () => {
     </section> 
         );
     };
-    const Div = styled.div`
+  const Div = styled.div`
     transform: translateX(${({ animate }) => (animate ? "0" : "-80vw")});
     opacity: ${({ animate }) => (animate ? "1" : "0")};
     transition: transform 1.5s ease, opacity 0.5s ease 0.5s;
