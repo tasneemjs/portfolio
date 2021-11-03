@@ -1,4 +1,3 @@
-// import WorkList from './WorkList';
 import React, { useState } from "react";
 import Workcover from './img/work-cover.png';
 import FrontWorkItem from './FrontWorkItem';
@@ -55,7 +54,7 @@ const Work_Data = [
     id: 'w6',
     title: 'International Recipes by Gustavo Pasquini',
     image:'Ux2.png',
-    weblink:'',
+    weblink:'work_img/International_Recipes.png',
     description:
       'To bring exquisite recipes to your fine dining table for special ocacsions.',
   },

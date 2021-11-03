@@ -62,7 +62,7 @@ const SelectedWorks = () => {
                     They operates with the concept of safety, security and community-based. 
                     They also carry out staff training aimed at kindness and politeness.
                     </p> 
-                <a className="index" href="http://ofa-support.com/taxi_department/" target="_blank" rel="noreferrer">View website</a> 
+                <a className="index" href="http://ofa-support.com/taxi_department/" target="_blank" rel="noreferrer">View Website</a> 
             </Div> 
         </div> 
     
@@ -73,7 +73,7 @@ const SelectedWorks = () => {
                     They are a driving training provider for the students who wants 
                     to get a job outiside of the prefecture. 
                 </p> 
-                <a className="index" href="http://www.miyadora.jp/gasshuku/gasshuku_plan.html" target="_blank" rel="noreferrer">View website</a>
+                <a className="index" href="http://www.miyadora.jp/gasshuku/gasshuku_plan.html" target="_blank" rel="noreferrer">View Website</a>
             </Div2> 
             <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
         </div> 
@@ -85,7 +85,7 @@ const SelectedWorks = () => {
                     They are a driving training provider for the students who wants 
                     to get a job outiside of the prefecture.
                 </p> 
-                <a className="index" href="http://www.miyadora.jp/gasshuku/gasshuku_plan.html" target="_blank" rel="noreferrer">View website</a>
+                <a className="index" href="http://www.miyadora.jp/gasshuku/gasshuku_plan.html" target="_blank" rel="noreferrer">View Website</a>
             </Div> 
         </div> 
 
@@ -98,7 +98,7 @@ const SelectedWorks = () => {
                     you can fully enjoy the nature of Miyazaki, and 
                     you can obtain a driver's license as if you were traveling or sightseeing.
                 </p> 
-                <a className="index" href="http://www.miyadora.jp/luxury/luxury_plan.html" target="_blank" rel="noreferrer">View website</a>
+                <a className="index" href="http://www.miyadora.jp/luxury/luxury_plan.html" target="_blank" rel="noreferrer">View Website</a>
             </Div3> 
         </div> 
 
