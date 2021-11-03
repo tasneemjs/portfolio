@@ -28,11 +28,15 @@ hr:not([size]) {
   }
   footer ul li {
     display: inline-block;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
     padding-left: 0.8rem;
   }
   footer ul li:nth-child(1) {
     margin-left: 1rem;
+  }
+  .copyright{
+    font-size: 0.8rem;
+    margin-top: 3rem;
   }
 
   @media (width: 320px) {

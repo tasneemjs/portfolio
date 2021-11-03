@@ -7,3 +7,11 @@
 .about-grid img{
     width: 100%;
 }
+@media (max-width: 48em) {
+    .about-grid{
+      display: block;
+    }
+    .about-grid h2{
+        margin-top: 2rem;
+    }
+  }

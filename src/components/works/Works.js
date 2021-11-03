@@ -76,7 +76,7 @@ function Works() {
 <section >
   <img src={Workcover} style={{ width: '-webkit-fill-available' }} alt="Cover"/>
   <div className="container">       
-    <div className="Tabs"> 
+    <div> 
   
       <ul className="nav"> 
       <li className={activeTab === "tab1" ? "active" : ""} onClick={handleTab1} >Frontend</li> 
