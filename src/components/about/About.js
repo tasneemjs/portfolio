@@ -3,7 +3,7 @@ import "./About.css";
 import TJS from "./tj.png";
 const About = () => {
     return (
-        <section >
+        <section className="container">
             <div className="about-grid">
                 <div><img src={TJS} alt="Tasneem Jannat Sultan"/></div>             
                 <div>
