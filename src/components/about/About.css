@@ -1,0 +1,9 @@
+.about-grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 3rem;
+    margin-top: 6rem;
+}
+.about-grid img{
+    width: 100%;
+}

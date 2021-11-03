@@ -77,13 +77,13 @@ function Works() {
   <img src={Workcover} style={{ width: '-webkit-fill-available' }} alt="Cover"/>
   <div className="container">       
     <div className="Tabs"> 
-    {/* Tab nav */} 
+  
       <ul className="nav"> 
       <li className={activeTab === "tab1" ? "active" : ""} onClick={handleTab1} >Frontend</li> 
-      <li className={activeTab === "tab2" ? "active" : ""} onClick={handleTab2} >UI/UX</li> 
+      <li className={activeTab === "tab2" ? "active" : ""} onClick={handleTab2} >UI/UX Design</li> 
       </ul> 
       <div > 
-      {/* content will be shown here */} 
+   
       {activeTab === "tab1" ? ( <FrontWorkItem workslists={Work_Data} /> ) : ( <UxWorkItem workslists={Work_Data} /> )
       } 
       </div> 

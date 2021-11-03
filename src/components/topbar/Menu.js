@@ -33,7 +33,9 @@ const Menu = () => {
               <li className="nav-item">
               <Link to='/about'>About</Link>
               </li>
-
+              <li className="nav-item">
+                <a href={`/${'Tasneem_Jannat-Resume.pdf'}`} target='_blank' rel='noreferrer'>Resume</a>
+              </li>
             </ul>
           </div>
         </div>
