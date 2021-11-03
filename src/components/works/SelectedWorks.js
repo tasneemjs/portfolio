@@ -50,7 +50,7 @@ const SelectedWorks = () => {
     }, []); 
     return ( 
     <section style={{ marginTop: 120 }}> 
-    <p>selected works<span class="hypen1">-</span></p> 
+    <p>selected works<span class="hypen1">—&nbsp;</span></p> 
 
         <div className="box-grid "> 
             
@@ -102,7 +102,7 @@ const SelectedWorks = () => {
             </Div3> 
         </div> 
 
-        <div><Link to={"./works"} style={{color: '#233f4f'}}>view other works<span class="hypen2">-</span></Link></div>
+        <div><Link to={"./works"} style={{color: '#233f4f'}}>view other works<span class="hypen2">—&nbsp;</span></Link></div>
     </section> 
         );
     };
