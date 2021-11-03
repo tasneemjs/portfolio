@@ -6,6 +6,7 @@
 }
 .about-grid img{
     width: 100%;
+    border-radius: 10px;
 }
 @media (max-width: 48em) {
     .about-grid{
