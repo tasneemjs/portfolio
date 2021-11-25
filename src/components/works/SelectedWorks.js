@@ -1,7 +1,5 @@
 import "./Work.css";
 import Web1 from './img/Web1.png';
-import Web2 from './img/Web2.png';
-import Web3 from './img/Web3.png';
 import Ui1 from './img/Ux1.png';
 import Ui2 from './img/Ux2.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
