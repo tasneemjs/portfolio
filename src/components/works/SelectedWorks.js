@@ -67,7 +67,7 @@ const SelectedWorks = () => {
         </div> 
     
         <div className="box-grid2 display-pc"> 
-            <Div2 className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
+            <Div2 className="brf-box2" animate={show.itemTwo} ref={secRef}> 
             <h4>Inductive Bible Study</h4>
                 <p> The Inductive Bible Study app inspires people to spend time with God everyday. 
                     It is a beautiful, easy to use, full featured Bible app with amazing videos and 
@@ -80,7 +80,7 @@ const SelectedWorks = () => {
         </div> 
         <div className="box-grid2 display-sp"> 
             <div className="img-box2"><img src={Ui1} alt="Inductive Bible Study"/></div> 
-            <Div className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
+            <Div className="brf-box2" animate={show.itemTwo} ref={secRef}> 
             <h4>Inductive Bible Study</h4>
             <p> The Inductive Bible Study app inspires people to spend time with God everyday. 
                     It is a beautiful, easy to use, full featured Bible app with amazing videos and 
