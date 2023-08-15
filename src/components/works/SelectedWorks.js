@@ -1,7 +1,7 @@
 import "./Work.css";
 import Web1 from './img/Web1.png';
-import Web2 from './img/Web2.png';
-import Web3 from './img/Web3.png';
+import Ui1 from './img/Ux1.png';
+import Ui2 from './img/Ux2.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components";
 import React, { useLayoutEffect, useRef, useState } from "react";
@@ -50,49 +50,62 @@ const SelectedWorks = () => {
     }, []); 
     return ( 
     <section style={{ marginTop: 120 }}> 
-    <p>selected boxs-</p> 
+    <p>selected works<span class="hypen1">—&nbsp;</span></p> 
+
         <div className="box-grid "> 
-            <a className="index" href="https://fn6fe.csb.app/"> 
+            
             <div className="img-box1"><img src={Web1} alt="OFA Hinomaru Taxi"/></div> 
-            </a> 
+            
             <Div className=" brf-box1" animate={show.itemOne} ref={oneRef}> 
-                <p> A website about blablabla. Developed a custom template 
-                    by using html, php, js, in wordpress platform. 
+            <h4>OFA Hinomaru Taxi</h4>
+                <p> Designed and developed the website for Hinomaru Taxi. 
+                    They operates with the concept of safety, security and community-based. 
+                    They also carry out staff training aimed at kindness and politeness.
                     </p> 
+                <a className="index" href="http://ofa-support.com/taxi_department/" target="_blank" rel="noreferrer">View Website</a> 
             </Div> 
         </div> 
     
         <div className="box-grid2 display-pc"> 
-            <Div2 className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
-                <p> A website about blablabla. Developed a custom 
-                template by using html, php, js, in wordpress platform. 
+            <Div2 className="brf-box2" animate={show.itemTwo} ref={secRef}> 
+            <h4>Inductive Bible Study</h4>
+                <p> The Inductive Bible Study app inspires people to spend time with God everyday. 
+                    It is a beautiful, easy to use, full featured Bible app with amazing videos and 
+                    multiple translations designed for quick navigation, easy notes taking and 
+                    powerful Bible study.
                 </p> 
+                <a className="index" href="https://play.google.com/store/apps/details?id=com.inductivebiblestudyapp&hl=en&gl=US" target="_blank" rel="noreferrer">View Website</a>
             </Div2> 
-            <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
+            <div className="img-box2"><img src={Ui1} alt="Inductive Bible Study"/></div> 
         </div> 
         <div className="box-grid2 display-sp"> 
-            <div className="img-box2"><img src={Web2} alt="Miyadora Gassyuku Plan"/></div> 
-            <Div className=" brf-box2" animate={show.itemTwo} ref={secRef}> 
-                <p> A website about blablabla. Developed a 
-                custom template by using html, php, js, in wordpress platform. 
+            <div className="img-box2"><img src={Ui1} alt="Inductive Bible Study"/></div> 
+            <Div className="brf-box2" animate={show.itemTwo} ref={secRef}> 
+            <h4>Inductive Bible Study</h4>
+            <p> The Inductive Bible Study app inspires people to spend time with God everyday. 
+                    It is a beautiful, easy to use, full featured Bible app with amazing videos and 
+                    multiple translations designed for quick navigation, easy notes taking and 
+                    powerful Bible study.
                 </p> 
+                <a className="index" href="https://play.google.com/store/apps/details?id=com.inductivebiblestudyapp&hl=en&gl=US" target="_blank" rel="noreferrer">View Website</a>
             </Div> 
         </div> 
 
         <div className="box-grid"> 
-            <div className="img-box3"><img src={Web3} alt="Miyadora Luxury Plan"/></div> 
+            <div className="img-box3"><img src={Ui2} alt="International Recipes by Gustavo Pasquini"/></div> 
             <Div3 className="brf-box3" animate={show.itemThr} ref={thrRef}> 
-                <p> A website about blablabla. Developed a 
-                custom template by using html, php, js, in wordpress platform. 
+            <h4>International Recipes by Gustavo Pasquini</h4>
+                <p> To bring exquisite recipes to your fine dining table for special ocacsions.
                 </p> 
+                <a className="index" href="https://tasneemj.com/work_img/International_Recipes.png" target="_blank" rel="noreferrer">View Website</a>
             </Div3> 
         </div> 
 
-        <div><Link to={"./works"}>view other works-</Link></div>
+        <div><Link to={"./works"} style={{color: '#233f4f'}}>view other works<span class="hypen2">—&nbsp;</span></Link></div>
     </section> 
         );
     };
-    const Div = styled.div`
+  const Div = styled.div`
     transform: translateX(${({ animate }) => (animate ? "0" : "-80vw")});
     opacity: ${({ animate }) => (animate ? "1" : "0")};
     transition: transform 1.5s ease, opacity 0.5s ease 0.5s;
@@ -103,8 +116,8 @@ const SelectedWorks = () => {
     transition: transform 1.5s ease, opacity 0.5s ease 0.5s;
   `;
   const Div3 = styled.div`
-    transform: translateX(${({ animate }) => (animate ? "0" : "-20vw")});
+    transform: translateX(${({ animate }) => (animate ? "0" : "-30vw")});
     opacity: ${({ animate }) => (animate ? "1" : "0")};
-    transition: transform 1s ease, opacity 0.5s ease 0.3s;
+    transition: transform 1.4s ease, opacity 0.5s ease 0.4s;
   `;
 export default SelectedWorks;

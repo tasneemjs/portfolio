@@ -9,10 +9,13 @@ function WorkList(props) {
           category={workslist.category}
           id={workslist.id}
           image={workslist.image}
+          weblink={workslist.weblink}
           title={workslist.title}
           description={workslist.description}
         />
+        
       ))}
+      
     </div>
   );
 }

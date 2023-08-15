@@ -11,9 +11,9 @@ const Menu = () => {
       <Router>
       <nav className="navbar navbar-expand-lg navbar-light active ">
         <div className="container-fluid">
-          <a className="navbar-brand" style={{ pointerEvents: 'none' }} href="https://37muo.csb.app/">
+        <Link to='/'>
           <img src={tj_logo} className="" alt="" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,14 +27,14 @@ const Menu = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-              <Link to='/'>Home</Link>
+            <li className="nav-item">
+              <Link to='/works'>Works</Link>
               </li>
               <li className="nav-item">
               <Link to='/about'>About</Link>
               </li>
               <li className="nav-item">
-              <Link to='/works'>Works</Link>
+                <a href={`/${'Tasneem_Jannat-Resume.pdf'}`} target='_blank' rel='noreferrer'>Resume</a>
               </li>
             </ul>
           </div>

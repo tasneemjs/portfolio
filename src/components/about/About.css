@@ -1,0 +1,18 @@
+.about-grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 3rem;
+    margin-top: 6rem;
+}
+.about-grid img{
+    width: 100%;
+    border-radius: 10px;
+}
+@media (max-width: 48em) {
+    .about-grid{
+      display: block;
+    }
+    .about-grid h2{
+        margin-top: 2rem;
+    }
+  }
