@@ -8,7 +8,7 @@ function Intro(){
             on desiging and developing user friendly websites.
             </p>
             <p className="p2">
-                <span className="in-hypn">—&nbsp;</span><span className="intro-p2">currently working in a company based in Miyazaki, Japan 🇯🇵</span>
+                <span className="in-hypn">—&nbsp;</span><span className="intro-p2">currently working at Rakuten in Tokyo, Japan 🇯🇵</span>
             </p>
         </div>
     );
